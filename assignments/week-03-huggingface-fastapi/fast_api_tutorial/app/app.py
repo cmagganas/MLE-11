@@ -3,7 +3,7 @@ from pydantic import BaseModel
 from typing import List
 from transformers import pipeline
 
-pipeline = pipeline(model="t5-small") # complete this line with the code to load the pipeline from the local file
+pipeline = pipeline(model="model/t5-small") # complete this line with the code to load the pipeline from the local file
 
 app = FastAPI()
 
