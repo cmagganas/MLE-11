@@ -1,5 +1,6 @@
 from fastapi import FastAPI
 <<<<<<< HEAD
+<<<<<<< HEAD
 from pydantic import BaseModel
 from typing import List
 from transformers import pipeline
@@ -31,6 +32,8 @@ def translate(texts_to_translate: TextsToTranslate):
     return {"message": pipeline(texts_to_translate.input_texts)}
 
 =======
+=======
+>>>>>>> 1cb1d3d8b04ec2e0cde4dcac2a9dfe6de6b0ba77
 
 app = FastAPI()
 
@@ -38,7 +41,10 @@ app = FastAPI()
 def index():
     return {"message": "Hello World"}
     
+<<<<<<< HEAD
 >>>>>>> 2a1bf3e1fb8d0f8fc0edda941b7d6c0efd16de43
+=======
+>>>>>>> 1cb1d3d8b04ec2e0cde4dcac2a9dfe6de6b0ba77
 if __name__ == "__main__":
     import uvicorn
     uvicorn.run("app:app", host="0.0.0.0", port=8000, reload=True)
