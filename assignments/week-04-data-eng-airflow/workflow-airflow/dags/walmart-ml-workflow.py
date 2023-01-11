@@ -7,17 +7,17 @@ from airflow.operators.bash import BashOperator
 with DAG(
     'walmart-ml-workflow',
     default_args={
-        'owner': 'Flora Xu', # YOUR NAME HERE
+        'owner': 'Christos Magganas', # YOUR NAME HERE
         'depends_on_past': False,
-        'email': ['flora@fourthbrain.ai'], # YOUR EMAIL HERE
+        'email': ['cmagganas@gmail.com'], # YOUR EMAIL HERE
         'email_on_failure': False,
         'email_on_retry': False,
         'retries': 1,
         'retry_delay': timedelta(minutes=5),
         },
     description='A simple Machine Learning workflow for Walmart Sales',
-    schedule_interval=timedelta(days=1),
-    start_date=datetime(2022, 8, 27), 
+    schedule_interval=timedelta(minutes=5),
+    start_date=datetime(2023, 1, 11), 
     tags=['walmart', 'ml', 'workflow'] # OPTIONAL: tags
 ) as dag:
 
