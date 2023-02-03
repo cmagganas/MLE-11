@@ -1,0 +1,15 @@
+artifact_uri: file:///home/cmagganas/mlops-development/code/fourth-brain-repo/MLE-11/assignments/week-07-intro-dl/nb/mlruns/0/d01d112c9e4c4f9296c48ceffb491628/artifacts
+end_time: 1675446314724
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: d01d112c9e4c4f9296c48ceffb491628
+run_name: bright-goose-645
+run_uuid: d01d112c9e4c4f9296c48ceffb491628
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1675446305178
+status: 3
+tags: []
+user_id: cmagganas

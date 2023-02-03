@@ -1,0 +1,15 @@
+artifact_uri: file:///home/cmagganas/mlops-development/code/fourth-brain-repo/MLE-11/assignments/week-07-intro-dl/nb/mlruns/0/a5c945c10b694adcba2e8b092517bf12/artifacts
+end_time: 1675446300935
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: a5c945c10b694adcba2e8b092517bf12
+run_name: thoughtful-shrew-187
+run_uuid: a5c945c10b694adcba2e8b092517bf12
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1675446291291
+status: 3
+tags: []
+user_id: cmagganas
