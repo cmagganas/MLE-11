@@ -30,5 +30,4 @@ COPY src/ .
 EXPOSE 8000
 
 # Set the command to run the uvicorn server.
-# based on this command from week12: uvicorn main:app --reload --workers 1 --host 0.0.0.0 --port 8000
 CMD ["uvicorn", "main:app", "--reload", "--workers", "1", "--host", "0.0.0.0", "--port", "8000"]
