@@ -1,7 +1,7 @@
 # stock-predictor
 Stock Prophet
 
-## Week 12 - MLOps 1
+## Week 12 - MLOps 0
 
 <img src="img/week-12-MLOps0-screenshot-1.png" alt="drawing" width="400"/>
 
