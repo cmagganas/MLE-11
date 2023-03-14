@@ -1,18 +1,9 @@
 # stock-predictor
 Stock Prophet
 
-### cmd:
-```bash
-curl --header "Content-Type: application/json" --request POST --data '{"ticker":"MSFT", "days":7}' http://52.11.249.0:8000/predict
-```
-### output:
-```
-{"ticker":"MSFT","days":7,"forecast":{"03/10/2023":245.28347058864819,"03/11/2023":245.26532916753953,"03/12/2023":245.24718774643088,"03/13/2023":245.22904632532223,"03/14/2023":245.21090490421358,"03/15/2023":245.19276348310493,"03/16/2023":245.17462206199627}}
-```
+## Week 12 - MLOps 1
 
 <img src="img/week-12-MLOps0-screenshot-1.png" alt="drawing" width="400"/>
-
-## Week 12 - MLOps 1
 
 <h3>
 How does the Prophet Algorithm differ from an LSTM?
@@ -42,3 +33,31 @@ How is seasonality different from cyclicality? Fill in the blanks:
 Seasonality is predictable, whereas cyclicality is not.
 Seasonality refers to a repeating pattern within a period of one year or less, while cyclicality refers to a repeating pattern over a period longer than one year. The two patterns are different in terms of their duration, underlying causes, and the way they affect time series data.
 Another key difference between seasonality and cyclicality is that seasonality is often driven by external factors such as the weather, while cyclicality is driven by internal factors such as changes in consumer and investor behavior.
+
+## Week 13 - Containers
+
+<img src="img/week-13-containers-screenshot-1.png" alt="drawing" width="400"/>
+
+<h3>
+What does it mean to create a Docker image and why do we use Docker images?
+</h3>
+
+A Docker image is a file that is used to execute code in a Docker container. Docker images are used to package an application and its dependencies into a standardized unit for software development. Docker images are also used to create Docker containers.
+
+<h3>
+Please explain what is the difference from a Container vs a Virtual Machine?
+</h3>
+
+A container is a standard unit of software that packages up code and all its dependencies so the application runs quickly and reliably from one computing environment to another. A virtual machine (VM) is an emulation of a computer system. Virtual machines are based on computer architectures and provide functionality of a physical computer. Their implementations may involve specialized hardware, software, or a combination.
+
+<h3>
+What are 5 examples of container orchestration tools (please list tools)?
+</h3>
+
+Kubernetes, Docker Swarm, Amazon ECS, Azure Container Service, Google Kubernetes Engine.
+
+<h3>
+How does a Docker image differ from a Docker container?
+</h3>
+
+A Docker image is a file that is used to execute code in a Docker container. Docker images are used to package an application and its dependencies into a standardized unit for software development. Docker images are also used to create Docker containers. A Docker container is a runtime instance of a Docker image. Docker containers are used to run applications by packaging up code and all its dependencies so the application runs quickly and reliably from one computing environment to another.
