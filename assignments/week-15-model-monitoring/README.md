@@ -5,8 +5,8 @@
 
 # <h1 align="center" id="heading">Monitoring Drift</h1>
 
-![train_completed](assets/Screenshot 2023-03-25 122531.png "train_completed")
-![train_classification](assets/Screenshot 2023-03-25 132218.png "train_classification")
+![train_completed](assets/train_completed.png "train_completed")
+![train_classification](assets/train_classification.png "train_classification")
 
 ## Background
 *Please review the weekly narrative [here](https://www.notion.so/Week-14-MLOps-Pipelines-Monitoring-and-Automation-639b4ef5787c4abb81bf3f8a2ca9845c#8072a14879674a8dbb37d140406f003f)*
