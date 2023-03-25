@@ -495,3 +495,31 @@ At the end of this session, you will be able to:
 2. Adding a Resource to your Application
    
    The application template uses AWS Serverless Application Model (AWS SAM) to define application resources. AWS SAM is an extension of AWS CloudFormation with a simpler syntax for configuring common serverless application resources such as functions, triggers, and APIs. For resources not included in [the SAM specification](https://github.com/awslabs/serverless-application-model/blob/master/versions/2016-10-31.md), you can use standard [AWS CloudFormation](https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-template-resource-type-ref.html) resource types.
+
+## Week 14 Assignment Questions
+
+What are 3 advantages of deploying using Model Serving methods Vs. deploying on GitHub Pages or HuggingFace for free?
+
+    * Model Serving methods are more secure
+    * Model Serving methods are more scalable
+    * Model Serving methods are more customizable
+
+What is ML model deployment?
+
+    Machine Learning (ML) model deployment refers to the process of integrating an ML model into an existing production environment, making it available for use by end-users or other software systems. It is the final stage of the ML pipeline, where the trained model is deployed to a production environment, such as a web or mobile application or a backend service, and made available to users for real-time prediction or decision-making.
+
+    In ML model deployment, the focus is on making the model available for use, ensuring that it is scalable, reliable, and robust enough to handle production workloads. This involves various tasks such as selecting a suitable deployment platform, packaging the model with its dependencies, and creating APIs or microservices for integration with other software systems.
+
+    Additionally, ML model deployment also involves monitoring and maintaining the deployed model, ensuring that it continues to perform optimally and that any issues or errors are promptly addressed. This may include implementing techniques such as automated testing, versioning, and continuous integration and deployment (CI/CD) to streamline the deployment process and ensure that the model is always up-to-date and functioning correctly.
+    
+
+What is Causal Inference and How Does It Work?
+
+    Causal inference is a field of statistics and data analysis that aims to identify causal relationships between variables. The goal is to understand whether changes in one variable cause changes in another variable, rather than just observing a correlation between them.
+
+
+What is serverless deployment and how its compared with deployment on server?
+
+    Serverless deployment is a cloud computing execution model in which the cloud provider dynamically manages the allocation and provisioning of servers. A serverless application runs in stateless containers that are event-triggered, ephemeral (may last for one invocation), and fully managed by the cloud provider. The serverless model is also known as Function as a Service (FaaS).
+
+    In contrast, a traditional deployment model involves deploying an application on a server that is managed by the organization. The organization is responsible for provisioning and managing the server, and for ensuring that the server is always available and functioning correctly. This requires the organization to invest in the necessary infrastructure and expertise to manage the server, which can be costly and time-consuming.
